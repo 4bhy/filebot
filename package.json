@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "dotenv": "^16.0.3",
-    "got": "^12.6.0",
     "input": "^1.0.1",
     "telegram": "^2.16.4"
   }
