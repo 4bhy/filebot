@@ -2,6 +2,7 @@ const { TelegramClient } = require("telegram");
 const { StringSession } = require("telegram/sessions");
 const input = require('input')
 
+
 require('dotenv').config();
 
 const apiId = Number(process.env.API_ID);
@@ -26,10 +27,7 @@ const client = new TelegramClient(new StringSession(stringSession), apiId, apiHa
 
 
 
-    sentmsg();
+
+
+    sentmsg(client);
 })();
-
-
-const sentmsg = async () => {
-    await client.sendMessage("me", { message: "Hello!" });
-}

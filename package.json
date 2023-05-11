@@ -1,4 +1,21 @@
 {
+  "name": "filebot",
+  "version": "1.0.0",
+  "description": "A telegram file to link bot",
+  "main": "filebot.js",
+  "scripts": {
+    "test": "filebot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D3NUVO/filebot.git"
+  },
+  "author": "pyhooma.t.me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D3NUVO/filebot/issues"
+  },
+  "homepage": "https://github.com/D3NUVO/filebot#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "input": "^1.0.1",
