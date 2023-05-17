@@ -31,9 +31,9 @@ const client = new TelegramClient(new StringSession(stringSession), apiId, apiHa
             const message = event.message.message;
             console.log("Here is the message", message)
             if (message == "/eclipse_java@Brototype_bot") {
-                await client.sendMessage(chatid, { message: "Here is the link for Eclipse: https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2023-03/R/eclipse-inst-jre-win64.exe" });
+                await client.sendMessage(chatid, { message: "Here is the download link for Eclipse: https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2023-03/R/eclipse-inst-jre-win64.exe" });
             } else if (message == "/mingw@Brototype_bot") {
-                await client.sendMessage(chatid, { message: "Here is the link for cygwin: https://cygwin.com/setup-x86_64.exe" });
+                await client.sendMessage(chatid, { message: "Here is the download link for cygwin: https://cygwin.com/setup-x86_64.exe" });
             }
         } catch (error) {
             console.log(error.message);
