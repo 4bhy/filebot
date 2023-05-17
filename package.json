@@ -4,7 +4,7 @@
   "description": "A telegram file to link bot",
   "main": "filebot.js",
   "scripts": {
-    "test": "filebot"
+    "test": "node filebot"
   },
   "repository": {
     "type": "git",
