@@ -36,7 +36,7 @@ const client = new TelegramClient(new StringSession(stringSession), apiId, apiHa
                 await client.sendMessage(chatid, { message: "Here is the download link for cygwin: https://cygwin.com/setup-x86_64.exe" });
             }
         } catch (error) {
-            console.log(error.message);
+            await client.sendMessage(chatid, { message: error.message });
         }
     }
 
